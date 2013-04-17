@@ -2,13 +2,17 @@
 
 This is a fork of [codeparty/derby](https://github.com/codeparty/derby) maintained by [SLaks](http://slaks.net) to add features and bugfixes.
 
-The Derby MVC framework makes it easy to write real-time, collaborative applications that run in both Node.js and browsers.
+ > The Derby MVC framework makes it easy to write real-time, collaborative applications that run in both Node.js and browsers.
 
-Derby includes a powerful data synchronization engine called Racer that automatically syncs data among browsers, servers, and a database. Models subscribe to changes on specific objects, enabling granular control of data propagation without defining channels. Racer supports offline usage and conflict resolution out of the box, which greatly simplifies writing multi-user applications.
+ > Derby includes a powerful data synchronization engine called Racer that automatically syncs data among browsers, servers, and a database. Models subscribe to changes on specific objects, enabling granular control of data propagation without defining channels. Racer supports offline usage and conflict resolution out of the box, which greatly simplifies writing multi-user applications.
 
-Derby applications load immediately and can be indexed by search engines, because the same templates render on both server and client. In addition, templates define bindings, which instantly update the view when the model changes and vice versa. Derby makes it simple to write applications that load as fast as a search engine, are as interactive as a document editor, and work offline.
+ > Derby applications load immediately and can be indexed by search engines, because the same templates render on both server and client. In addition, templates define bindings, which instantly update the view when the model changes and vice versa. Derby makes it simple to write applications that load as fast as a search engine, are as interactive as a document editor, and work offline.
 
 For more information, see the stock Derby documentation at http://derbyjs.com/
+
+Issues and pull requests welcome.  
+For support, see the [Google Group](https://groups.google.com/forum/?fromgroups#!forum/derbyjs).
+
 
 ##Fork Usage
 
