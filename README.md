@@ -13,6 +13,8 @@ For more information, see the stock Derby documentation at http://derbyjs.com/
 Issues and pull requests welcome.  
 For support, see the [Google Group](https://groups.google.com/forum/?fromgroups#!forum/derbyjs).
 
+[![Build
+Status](https://secure.travis-ci.org/Unroll-Me/derby.png)](http://travis-ci.org/Unroll-Me/derby)
 
 ##Fork Usage
 
