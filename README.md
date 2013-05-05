@@ -13,6 +13,8 @@ For more information, see the stock Derby documentation at http://derbyjs.com/
 Issues and pull requests welcome.  
 For support, see the [Google Group](https://groups.google.com/forum/?fromgroups#!forum/derbyjs).
 
+[![Build
+Status](https://secure.travis-ci.org/Unroll-Me/derby.png)](http://travis-ci.org/Unroll-Me/derby)
 
 ##Fork Usage
 
@@ -46,3 +48,12 @@ Such view helpers must be registered with every `staticPages` instance used to r
 var staticPages = derby.createStatic(root);
 staticPages.view.fn('name', function(...) { ... };
 ```
+
+ - Precompiling static views  
+You can now call `app.view.pack()` on static views too:  
+```js
+var staticPages = derby.createStatic(root);
+staticPages.pack('folder/home', function(err, clientName) { ... };
+```  
+This will create a JSON file in `public/genpack` with the pre-compiled HTML and CSS markup for the view.  This allows Derby to skip the expensive compilation step, which would ordinarily happen the first time each view is loaded (per `staticPages` instance).  
+Note that this only applies in production mode.
