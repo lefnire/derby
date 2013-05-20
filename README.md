@@ -40,6 +40,9 @@ Some of these changes have been pull-requested to stock Derby (not all of these 
 ##Breaking changes
 Unroll-Me/derby currently has no breaking changes, other than changes involving Racer interaction (which, when used with SLaks/racer, don't break anything).
 
+## Bugfixes
+ - Models containing U+2028 LINE SEPARATOR characters are now serialized correctly
+
 ## New features
  - Static view helpers ([#225](https://github.com/codeparty/derby/pull/225))  
    You can now create [view helpers](http://derbyjs.com/#view_helper_functions) for use with [static pages](http://derbyjs.com/#static_pages).  
